@@ -1,0 +1,3 @@
+Currently, the notebook `analyses/explore_spotify_variation.Rmd` begins to explore variation in the spotify songs dataset using only a PCA.
+We'd like to expand this analysis to also visualize a UMAP from this data, as well as identify and visualize variables in the dataset which may contribute to the variation seen in the UMAP.
+One particular item to be aware of is that the notebook is currently deterministic with only PCA, but when adding UMAP we will be adding some stochasticity; therefore, a random seed will need to be set to ensure reproducibility.
