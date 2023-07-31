@@ -64,3 +64,12 @@ ggplot(pca_df) +
 umap_result <- umap(pca$x)
 ```
 
+```{r}
+# Extract UMAP1 and UMAP2 into a data frame
+umap_df <- data.frame(umap_result$layout) |>
+  # rename X1, X2 --> UMAP1, UMAP2
+  dplyr::rename_all(.funs = gsub,
+                    pattern = "^X",
+                    replacement = "UMAP")
+```
+
