@@ -73,3 +73,15 @@ umap_df <- data.frame(umap_result$layout) |>
                     replacement = "UMAP")
 ```
 
+```{r}
+# plot the UMAP:
+ggplot(umap_df) +
+  aes(x = UMAP1, y = UMAP2) +
+  geom_point(alpha = 0.5,
+             size = 0.1,
+             color = "darkgreen") +
+  # set axis limits to visualize non-outlier points
+   ylim(-10, 10) + xlim(-10, 20)
+```
+
+
