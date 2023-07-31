@@ -1,0 +1,2 @@
+A script called `scripts/penguins_subset_2008.R` should be added which subsets the full `palmerpenguins::penguins` dataset to contain only penguins sampled in 2008.
+This script should export the subsetted data to a TSV file, `results/penguins_2008.tsv`.
