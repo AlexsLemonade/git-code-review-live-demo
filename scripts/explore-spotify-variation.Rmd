@@ -56,3 +56,11 @@ ggplot(pca_df) +
              alpha = 0.5) + 
   theme_bw()
 ```
+
+## UMAP
+
+```{r}
+# Calculate UMAP itself with default parameters
+umap_result <- umap(pca$x)
+```
+
