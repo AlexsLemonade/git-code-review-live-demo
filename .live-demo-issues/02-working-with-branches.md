@@ -1,2 +1,2 @@
-A script called `scripts/penguins-subset-Adelie.R` should be added which subsets the full `palmerpenguins::penguins` dataset to contain only Adelie species penguins.
-This script should export the subsetted data to a TSV file, `results/penguins-adelie.tsv`.
+A script called `scripts/penguins_subset_adelie.R` should be added which subsets the full `palmerpenguins::penguins` dataset to contain only Adelie species penguins.
+This script should export the subsetted data to a TSV file, `results/penguins_adelie.tsv`.
