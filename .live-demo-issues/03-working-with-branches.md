@@ -1,0 +1,2 @@
+A script called `scripts/penguins-count-species.R` should be added which creates a data frame that contains counts of the number of penguins from each species in the `palmerpenguins::penguins` dataset.
+This script should export the resulting data frame to a TSV file, `results/penguins-species-counts.tsv`.
