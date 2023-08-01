@@ -1,0 +1,68 @@
+name: Manually trigger issues for using in live demonstrations
+
+on:
+  workflow_dispatch:
+    inputs:
+      demo_lead_username:
+        description: The github username of who will be performing the live demonstrations
+        required: true
+      demo_support_username:
+        description: The github username of who will file the PR to support the live code demonstration
+        required: true
+
+jobs:
+  file_live_demo_issues:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # Check out repository
+      - uses: actions/checkout@v3
+
+      # Issue for git basics
+      - name: Create issue for git basics demonstration
+        uses: peter-evans/create-issue-from-file@v4.0.1
+        with:
+          title: Add bins argument to penguins histogram script
+          content-filepath: .live-demo-content/issue-templates/git-basics.md
+          assignee: ${{ github.event.inputs.demo_lead_username }}
+
+      # Issue 01 for working with branches
+      - name: Create 1st issue for working with branches demonstration
+        uses: peter-evans/create-issue-from-file@v4.0.1
+        with:
+          title: Subset penguins data to only 2008 penguins
+          content-filepath: .live-demo-content/issue-templates/01-working-with-branches.md
+          assignee: ${{ github.event.inputs.demo_lead_username }}
+
+      # Issue 02 for working with branches
+      - name: Create 2nd issue for working with branches demonstration
+        uses: peter-evans/create-issue-from-file@v4.0.1
+        with:
+          title: Subset penguins data to only Adelie penguins
+          content-filepath: .live-demo-content/issue-templates/02-working-with-branches.md
+          assignee: ${{ github.event.inputs.demo_lead_username }}
+
+      # Issue 03 for working with branches
+      - name: Create 3rd issue for working with branches demonstration
+        uses: peter-evans/create-issue-from-file@v4.0.1
+        with:
+          title: Count number of penguins of each species
+          content-filepath: .live-demo-content/issue-templates/03-working-with-branches.md
+          assignee: ${{ github.event.inputs.demo_lead_username }}
+
+      # Issue 04 for working with branches
+      - name: Create 4th issue for working with branches demonstration
+        uses: peter-evans/create-issue-from-file@v4.0.1
+        with:
+          title: Calculate mean mass of each penguin species
+          content-filepath: .live-demo-content/issue-templates/04-working-with-branches.md
+          assignee: ${{ github.event.inputs.demo_lead_username }}
+
+      # Issue for performing code review
+      - name: Create issue for performing code review demonstration
+        uses: peter-evans/create-issue-from-file@v4.0.1
+        with:
+          title: Include UMAP in `explore_spotify_variation` notebook
+          content-filepath: .live-demo-content/issue-templates/performing-code-review.md
+          assignee: ${{ github.event.inputs.demo_support_username }}
