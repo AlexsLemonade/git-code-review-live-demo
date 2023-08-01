@@ -9,7 +9,9 @@ on:
       demo_support_username:
         description: The github username of who will file the PR to support the live code demonstration
         required: false
-  push
+  push:
+    branches:
+      - sjspielman/10-add-issues-gha
 
 jobs:
   file_live_demo_issues:
