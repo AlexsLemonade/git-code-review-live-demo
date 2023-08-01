@@ -5,10 +5,11 @@ on:
     inputs:
       demo_lead_username:
         description: The github username of who will be performing the live demonstrations
-        required: true
+        required: false
       demo_support_username:
         description: The github username of who will file the PR to support the live code demonstration
-        required: true
+        required: false
+  push
 
 jobs:
   file_live_demo_issues:
