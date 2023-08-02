@@ -15,5 +15,5 @@ If you do not provide these inputs, you will have to manually assign the resulti
 
 * Whoever is assigned [the issue associated with demonstrating PR review](.live-demo-content/issue-templates/performing-code-review.md) will need to prepare a branch and file a PR, with several commits (whose messages have varying levels of information), that will be reviewed during the live demonstration.
 * This branch should ultimately modify contents of [this baseline notebook](analyses/explore-spotify-variation.Rmd) to match [this updated notebook](.live-demo-content/explore-spotify-variation-with-UMAPs.Rmd).
-* A PR should then be filed to `main`, using _TODO: this forthcoming file which contains the PR comment text._
+* A PR should then be filed to `main`, using the text in [`.live-demo-content/spotify-pr-text.md`](.live-demo-content/spotify-pr-text.md).
 
