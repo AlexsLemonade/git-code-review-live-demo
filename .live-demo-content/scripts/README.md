@@ -7,4 +7,5 @@ This directory contains cooking show magic baseline scripts which can be used fo
   * [`penguins_calculate_mass.R`](penguins_calculate_mass.R) can be used for [`04-working-with-branches.md`](../issue-templates/04-working-with-branches.md)
 
 * Stacking
-  * [`model_penguins.R`](model_penguins.R) contains both sets of code, as indicated in the script,
+  * [`utils.R`](utils.R) contains both functions, as indicated in the script, to address both [`01-stacking.md`](../issue-templates/01-stacking.md) and [`02-stacking.md`](../issue-templates/02-stacking.md).
+  * [`model_penguins.R`](model_penguins.R) contains both sets of code, as indicated in the script, to address both [`01-stacking.md`](../issue-templates/01-stacking.md) and [`02-stacking.md`](../issue-templates/02-stacking.md).
