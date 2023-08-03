@@ -59,6 +59,22 @@ jobs:
           content-filepath: .live-demo-content/issue-templates/04-working-with-branches.md
           assignee: ${{ github.event.inputs.demo_lead_username }}
 
+     # Issue 01 for stacking
+      - name: Create 1st issue for stacking demonstration
+        uses: peter-evans/create-issue-from-file@v4.0.1
+        with:
+          title: Perform and export penguin linear regression
+          content-filepath: .live-demo-content/issue-templates/01-stacking.md
+          assignee: ${{ github.event.inputs.demo_lead_username }}
+
+      # Issue 02 for stacking
+      - name: Create 2nd issue for stacking demonstration
+        uses: peter-evans/create-issue-from-file@v4.0.1
+        with:
+          title: Create and export scatterplot of penguin regression model variables
+          content-filepath: .live-demo-content/issue-templates/02-stacking.md
+          assignee: ${{ github.event.inputs.demo_lead_username }}
+
       # Issue for performing code review
       - name: Create issue for performing code review demonstration
         uses: peter-evans/create-issue-from-file@v4.0.1
