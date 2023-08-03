@@ -1,5 +1,5 @@
-# 2023-chop-training-demo
-Repository for live demos associated with 2023 CHOP Workshop on code review.
+# TEMPLATE repository for live demos associated with the Data Lab workshop on code review
+**TEMPLATE repository** for live demos associated with the Childhood Cancer Data Lab workshop on advanced git topics and analytical code review.
 
 To prepare for live demos presented in this workshop, several issues will need to be filed in advance, and one PR will need to be filed in advance.
 
