@@ -17,3 +17,6 @@ If you do not provide these inputs, you will have to manually assign the resulti
 * This branch should ultimately modify the contents of [this baseline notebook](analyses/explore-spotify-variation.Rmd) to match [this updated notebook](.live-demo-content/analyses/explore-spotify-variation-with-UMAPs.Rmd).
 * A PR should then be filed to `main`, using the text in [`.live-demo-content/spotify-pr-text.md`](.live-demo-content/spotify-pr-text.md).
 
+### Reference scripts for live demos
+
+Reference scripts for live demos are available in [`.live-demo-content/scripts`](.live-demo-content/scripts).
