@@ -71,7 +71,7 @@ jobs:
       - name: Create 2nd issue for stacking demonstration
         uses: peter-evans/create-issue-from-file@v4.0.1
         with:
-          title: Create scatterplot of penguin regression model
+          title: Create and export scatterplot of penguin regression model variables
           content-filepath: .live-demo-content/issue-templates/02-stacking.md
           assignee: ${{ github.event.inputs.demo_lead_username }}
 
