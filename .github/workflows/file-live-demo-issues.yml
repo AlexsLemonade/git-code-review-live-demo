@@ -25,7 +25,7 @@ jobs:
         with:
           title: Add bins argument to penguins histogram script
           content-filepath: .live-demo-content/issue-templates/git-basics.md
-          assignee: ${{ github.event.inputs.demo_lead_username }}
+          assignees: ${{ github.event.inputs.demo_lead_username }}
 
       # Issue 01 for working with branches
       - name: Create 1st issue for working with branches demonstration
@@ -33,7 +33,7 @@ jobs:
         with:
           title: Subset penguins data to only 2008 penguins
           content-filepath: .live-demo-content/issue-templates/01-working-with-branches.md
-          assignee: ${{ github.event.inputs.demo_lead_username }}
+          assignees: ${{ github.event.inputs.demo_lead_username }}
 
       # Issue 02 for working with branches
       - name: Create 2nd issue for working with branches demonstration
@@ -41,7 +41,7 @@ jobs:
         with:
           title: Subset penguins data to only Adelie penguins
           content-filepath: .live-demo-content/issue-templates/02-working-with-branches.md
-          assignee: ${{ github.event.inputs.demo_lead_username }}
+          assignees: ${{ github.event.inputs.demo_lead_username }}
 
       # Issue 03 for working with branches
       - name: Create 3rd issue for working with branches demonstration
@@ -49,7 +49,7 @@ jobs:
         with:
           title: Count number of penguins of each species
           content-filepath: .live-demo-content/issue-templates/03-working-with-branches.md
-          assignee: ${{ github.event.inputs.demo_lead_username }}
+          assignees: ${{ github.event.inputs.demo_lead_username }}
 
       # Issue 04 for working with branches
       - name: Create 4th issue for working with branches demonstration
@@ -57,7 +57,7 @@ jobs:
         with:
           title: Calculate mean mass of each penguin species
           content-filepath: .live-demo-content/issue-templates/04-working-with-branches.md
-          assignee: ${{ github.event.inputs.demo_lead_username }}
+          assignees: ${{ github.event.inputs.demo_lead_username }}
 
      # Issue 01 for stacking
       - name: Create 1st issue for stacking demonstration
@@ -65,7 +65,7 @@ jobs:
         with:
           title: Perform and export penguin linear regression
           content-filepath: .live-demo-content/issue-templates/01-stacking.md
-          assignee: ${{ github.event.inputs.demo_lead_username }}
+          assignees: ${{ github.event.inputs.demo_lead_username }}
 
       # Issue 02 for stacking
       - name: Create 2nd issue for stacking demonstration
@@ -73,7 +73,7 @@ jobs:
         with:
           title: Create and export scatterplot of penguin regression model variables
           content-filepath: .live-demo-content/issue-templates/02-stacking.md
-          assignee: ${{ github.event.inputs.demo_lead_username }}
+          assignees: ${{ github.event.inputs.demo_lead_username }}
 
       # Issue for performing code review
       - name: Create issue for performing code review demonstration
@@ -81,4 +81,4 @@ jobs:
         with:
           title: Include UMAP in `explore_spotify_variation` notebook
           content-filepath: .live-demo-content/issue-templates/performing-code-review.md
-          assignee: ${{ github.event.inputs.demo_support_username }}
+          assignees: ${{ github.event.inputs.demo_support_username }}
