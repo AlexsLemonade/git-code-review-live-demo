@@ -2,7 +2,10 @@
 
 # Load libraries and functions
 library(tidyverse)
-source("utils.R")
+library(palmerpenguins)
+source(
+  here::here("scripts", "utils.R")
+)
 
 # define output file
 output_model_fit <- here::here("results", "penguin_model_fit.tsv")
