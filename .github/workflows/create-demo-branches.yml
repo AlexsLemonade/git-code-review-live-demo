@@ -1,0 +1,39 @@
+name: Manually trigger creation of certain branches used in live demonstrations
+
+on:
+  workflow_dispatch:
+    inputs:
+     penguins-species-count-issue:
+       description: The number of the issue filed to count number of penguins per species
+       required: true
+     penguins-species-mass-issue:
+       description: The number of the issue filed to calculate mean mass of each penguin species
+       required: true
+      username:
+        description: The github username of who will be performing the live demonstrations in these branches
+        required: true
+
+jobs:
+  file_live_demo_issues:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # Check out repository
+      - uses: actions/checkout@v3
+
+      # Create penguins-species-count branch
+      - uses: peterjgrainger/action-create-branch@v2.2.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        branch: refs/heads/${{ github.event.inputs.username }}/${{ github.event.inputs.penguins-species-count-issue }}-penguins-species-count
+        sha: '${{ github.event.pull_request.head.sha }}'
+
+      # Create penguins-species-mass branch
+      - uses: peterjgrainger/action-create-branch@v2.2.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        branch: refs/heads/${{ github.event.inputs.username }}/${{ github.event.inputs.penguins-species-mass-issue }}-penguins-species-mass
+        sha: '${{ github.event.pull_request.head.sha }}'
