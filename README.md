@@ -10,6 +10,13 @@ Under `Settings -> Branches`, add a new branch protection rule for `main` with t
 * _Require a pull request before merging_
   * The nested item _Require approvals_
 * _Do not allow bypassing the above settings_
+
+
+### Create a fork
+
+The individual leading the live demonstration teaching stacking and forks should have a fork created before the workshop starts.
+Optionally, the fork can be cloned, or this can be shown during the workshop.
+
 ### Filing live demo issues
 
 * The [github action](.github/workflows/file-live-demo-issues.yml) can be manually triggered to file issues.
