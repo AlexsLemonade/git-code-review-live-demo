@@ -1,7 +1,8 @@
 # TEMPLATE repository for live demos associated with the Data Lab workshop on code review
-**TEMPLATE repository** for live demos associated with the Childhood Cancer Data Lab workshop on advanced git topics and analytical code review.
+**TEMPLATE repository** for live demos associated with the Childhood Cancer Data Lab workshop on advanced `git`/GitHub and analytical code review.
 
-Reference scripts for live demos are available in [`.live-demo-content/scripts`](.live-demo-content/scripts).
+Instructor notes for how to lead the live demos are available in [`.live-demo-content/instructor-notes`](.live-demo-content/instructor-notes).
+Reference scripts that are written during live demos are available in [`.live-demo-content/scripts`](.live-demo-content/scripts).
 
 There are several tasks which need to be performed before this workshop begins, as detailed below.
 
