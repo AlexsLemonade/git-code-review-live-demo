@@ -1,7 +1,8 @@
 # TEMPLATE repository for live demos associated with the Data Lab workshop on code review
-**TEMPLATE repository** for live demos associated with the Childhood Cancer Data Lab workshop on advanced git topics and analytical code review.
+**TEMPLATE repository** for live demos associated with the Childhood Cancer Data Lab workshop on advanced `git`/GitHub topics and analytical code review.
 
-Reference scripts for live demos are available in [`.live-demo-content/scripts`](.live-demo-content/scripts).
+Instructor notes for how to lead the live demos are available in [`.live-demo-content/instructor-notes`](.live-demo-content/instructor-notes).
+Reference scripts that are written during live demos are available in [`.live-demo-content/scripts`](.live-demo-content/scripts).
 
 There are several tasks which need to be performed before this workshop begins, as detailed below.
 
@@ -30,8 +31,8 @@ If you do not provide these inputs, you will have to manually assign the resulti
 
 Two branches will need to be created in advance to support the "Working with branches" live demonstration.
 These branches should be created off of `main` and should be named as follows, where `<username>` is the GitHub handle of who will be performing the demonstration, and `<issue number>` is the number of the relevant issue that is filed from the [issue creation GHA](.github/workflows/file-live-demo-issues.yml).
-* `<username>/<issue number>-penguins-species-count` is the branch used to address the issue [.live-demo-content/issue-templates/03-working-with-branches.md](.live-demo-content/issue-templates/03-working-with-branches.md).
-* `<username>/<issue number>-penguins-species-mass` is the branch used to address the issue [.live-demo-content/issue-templates/04-working-with-branches.md](.live-demo-content/issue-templates/04-working-with-branches.md).
+* `<username>/<issue number>-penguins-species-count` is the branch used to address the issue [`.live-demo-content/issue-templates/03-working-with-branches.md`](.live-demo-content/issue-templates/03-working-with-branches.md).
+* `<username>/<issue number>-penguins-species-mass` is the branch used to address the issue [`.live-demo-content/issue-templates/04-working-with-branches.md`](.live-demo-content/issue-templates/04-working-with-branches.md).
 ### File a PR for live code review
 
 * Whoever is assigned [the issue associated with demonstrating PR review](.live-demo-content/issue-templates/performing-code-review.md) will need to prepare a branch and file a PR, with several commits (whose messages have varying levels of information), that will be reviewed during the live demonstration.
