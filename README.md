@@ -31,8 +31,8 @@ If you do not provide these inputs, you will have to manually assign the resulti
 
 Two branches will need to be created in advance to support the "Working with branches" live demonstration.
 These branches should be created off of `main` and should be named as follows, where `<username>` is the GitHub handle of who will be performing the demonstration, and `<issue number>` is the number of the relevant issue that is filed from the [issue creation GHA](.github/workflows/file-live-demo-issues.yml).
-* `<username>/<issue number>-penguins-species-count` is the branch used to address the issue [.live-demo-content/issue-templates/03-working-with-branches.md](.live-demo-content/issue-templates/03-working-with-branches.md).
-* `<username>/<issue number>-penguins-species-mass` is the branch used to address the issue [.live-demo-content/issue-templates/04-working-with-branches.md](.live-demo-content/issue-templates/04-working-with-branches.md).
+* `<username>/<issue number>-penguins-species-count` is the branch used to address the issue [`.live-demo-content/issue-templates/03-working-with-branches.md`](.live-demo-content/issue-templates/03-working-with-branches.md).
+* `<username>/<issue number>-penguins-species-mass` is the branch used to address the issue [`.live-demo-content/issue-templates/04-working-with-branches.md`](.live-demo-content/issue-templates/04-working-with-branches.md).
 ### File a PR for live code review
 
 * Whoever is assigned [the issue associated with demonstrating PR review](.live-demo-content/issue-templates/performing-code-review.md) will need to prepare a branch and file a PR, with several commits (whose messages have varying levels of information), that will be reviewed during the live demonstration.
