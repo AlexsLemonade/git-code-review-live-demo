@@ -3,6 +3,13 @@
 
 There are several tasks which need to be performed before this workshop begins, as detailed below.
 
+### Protect the `main` branch
+
+Under `Settings -> Branches`, add a new branch protection rule for `main` with the following options turned on:
+
+* _Require a pull request before merging_
+  * The nested item _Require approvals_
+* _Do not allow bypassing the above settings_
 ### Filing live demo issues
 
 * The [github action](.github/workflows/file-live-demo-issues.yml) can be manually triggered to file issues.
