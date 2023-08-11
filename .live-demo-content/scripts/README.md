@@ -1,10 +1,13 @@
 This directory contains cooking show magic baseline scripts which can be used for live demos with associated issues, as follows:
 
+* Git basics
+  * [`plot_penguins_histogram.R`](plot_penguins_histogram.R) contains the final version of the script that is modified from the baseline script (no `optparse` or plot export) for [`git-basics.md`](../issue-templates/git-basics.md)
+
 * Working with branches
-  * [`penguins_subset_2008.R`](penguins_subset_2008.R) can be used for [`01-working-with-branches.md`](../issue-templates/01-working-with-branches.md)
-  * [`penguins_subset_Adelie.R`](penguins_subset_Adelie.R) can be used for [`02-working-with-branches.md`](../issue-templates/02-working-with-branches.md)
-  * [`penguins_count_species.R`](penguins_count_species.R) can be used for [`03-working-with-branches.md`](../issue-templates/03-working-with-branches.md)
-  * [`penguins_calculate_mass.R`](penguins_calculate_mass.R) can be used for [`04-working-with-branches.md`](../issue-templates/04-working-with-branches.md)
+  * [`penguins_subset_2008.R`](penguins_subset_2008.R) can be used for [`01-working-with-branches.md`](../issue-templates/01-working-with-branches.md).
+  * [`penguins_subset_Adelie.R`](penguins_subset_Adelie.R) can be used for [`02-working-with-branches.md`](../issue-templates/02-working-with-branches.md).
+  * [`penguins_count_species.R`](penguins_count_species.R) can be used for [`03-working-with-branches.md`](../issue-templates/03-working-with-branches.md).
+  * [`penguins_calculate_mass.R`](penguins_calculate_mass.R) can be used for [`04-working-with-branches.md`](../issue-templates/04-working-with-branches.md).
 
 * Stacking
   * [`utils.R`](utils.R) contains both functions, as indicated in the script, to address both [`01-stacking.md`](../issue-templates/01-stacking.md) and [`02-stacking.md`](../issue-templates/02-stacking.md).
